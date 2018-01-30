@@ -1,0 +1,28 @@
+a=1
+
+b=79
+c=b
+n=0
+h=0
+if a!=0:
+	b*= 100
+	n+=1
+	b=b+100000
+	c=b
+	c=b+17000
+while True:	
+	f=1
+	
+	for i in range(2,b):
+		if b%i==0:
+			f=0
+			break
+	if f==0:
+		h+=1
+	
+	g=b- c
+	if g==0:
+		break
+	b+= 17
+	
+print(n)

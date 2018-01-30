@@ -1,0 +1,44 @@
+a=1
+
+b=79
+c=b
+n=0
+if a!=0:
+	b*= 100
+	n+=1
+	b=b+100000
+	c=b
+	c=b+17000
+while True:	
+	f=1
+	d=2
+	while True:
+		e=2
+		while True:
+			
+
+			n+=1
+			g=d*e-b
+			if g==0:
+				f=0
+				print('f=0',d,e)
+			e+= 1
+			
+			g=e-b
+			if g==0:
+				break
+		d+= 1
+		
+		g=d- b
+		if g==0:
+			break 
+	if f==0:
+		h+=1
+		print(h)
+	
+	g=b- c
+	if g==0:
+		break
+	b+= 17
+	
+print(n)
